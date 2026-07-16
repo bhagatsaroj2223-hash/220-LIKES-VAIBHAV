@@ -349,8 +349,8 @@ def handle_requests():
             
             result = {
                 "LikesGivenByAPI": like_given,
-                "LikesafterCommand": after_like,
-                "LikesbeforeCommand": before_like,
+                "LikesAfterCommand": after_like,
+                "LikesBeforeCommand": before_like,
                 "PlayerNickname": player_name if player_name != '' else nickname,
                 "Region": region if region != "NA" else server_name_used,
                 "UID": player_uid,
